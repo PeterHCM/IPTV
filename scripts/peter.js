@@ -4,4 +4,5 @@ document.getElementById("btniptvlist").onclick = function () {
        	{
 		document.getElementById("iptvlist").style.display = 'block';
 	}
+	else alert=("Sai mật khẩu");
 }
