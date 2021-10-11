@@ -2669,7 +2669,10 @@ img.testimonial-thumb {
     color: rgb(224, 104, 0);
 }
 .zalo-chat-widget {
-
+    position: fixed;
+    top:75%;
+    right:5%;
+    z-index: 99;
 }
 .fb-chat-widget {
     width:50px;
@@ -3752,6 +3755,10 @@ tr:nth-child(even) {
 .tooltip:hover .tooltiptext {
   visibility: visible;
   opacity: 1;
+}
+/* Embed IPTV */
+.hp-header,.hp-logo,.hp-footer {
+  display:none;
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
